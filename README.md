@@ -1,6 +1,6 @@
 🚀 Terminal Settings (macOS)
 
-![Screenshot](./screenshot.png)
+![Preview do Terminal](./screenshot.png)
 
 Minha configuração pessoal de ambiente de desenvolvimento para macOS. Focada em **produtividade**, **estética** e **performance**.
 
@@ -16,25 +16,33 @@ Este setup substitui ferramentas antigas do terminal (como `ls`, `cat`, `nano`) 
 | **Leitura** | `Bat` | Substituto do `cat` com syntax highlighting e numeração de linhas. |
 | **Editor** | `Micro` | Editor de texto intuitivo (mouse/scroll), configurado para agir como o Nano. |
 | **Navegação** | `Zoxide` | Navegação inteligente de diretórios ("cd" com memória). |
-| **Fonte** | `Nerd Fonts` | Fonte FiraCode para suportar ícones no terminal. |
+| **Fonte** | `Hack Nerd Font` | Fonte monoespaçada com suporte a ícones. |
 
-## 🎨 Visual
+## 🎨 Visual & Fonte (Importante)
 
 O tema utilizado em todo o sistema (Shell, Prompt, Editor) é o **Catppuccin Mocha**.
 
-> **Nota:** É recomendado usar uma "Nerd Font" (ex: FiraCode Nerd Font) no seu emulador de terminal para que os ícones funcionem corretamente.
+⚠️ **Requisito Visual:**
+Para que os ícones (Git, Node, pastas, etc.) apareçam corretamente, você **deve** instalar e configurar a fonte **Hack Nerd Font Mono Regular** no seu emulador de terminal.
 
-## ⚡️ Instalação Automática
+1. **Baixe a fonte:**
+   - Acesse [Nerd Fonts Downloads](https://www.nerdfonts.com/font-downloads).
+      - Procure por **Hack Nerd Font**.
+         - Clique em "Download".
+         2. **Instale:** Abra o arquivo `.zip`, execute os arquivos `.ttf` e clique em "Instalar Fonte".
+         3. **Configure:** Nas preferências do seu terminal (Terminal.app, iTerm2, VS Code), altere a fonte para `Hack Nerd Font Mono`.
 
-Para replicar este ambiente em uma nova máquina (macOS), basta clonar este repositório e rodar o script de instalação.
+         ## ⚡️ Instalação Automática
 
-```bash
-# 1. Clone o repositório
-git clone [https://github.com/SEU_USUARIO/terminal-settings.git](https://github.com/SEU_USUARIO/terminal-settings.git)
+         Para replicar este ambiente em uma nova máquina (macOS), basta clonar este repositório e rodar o script de instalação.
 
-# 2. Entre na pasta
-cd terminal-settings
+         ```bash
+         # 1. Clone o repositório
+         git clone [https://github.com/SEU_USUARIO/terminal-settings.git](https://github.com/SEU_USUARIO/terminal-settings.git)
 
-# 3. Dê permissão de execução e rode o script
-chmod +x install.sh
-./install.sh
+         # 2. Entre na pasta
+         cd terminal-settings
+
+         # 3. Dê permissão de execução e rode o script
+         chmod +x install.sh
+         ./install.sh
