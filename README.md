@@ -1,5 +1,7 @@
 🚀 Terminal Settings (macOS)
 
+![Screenshot](./screenshot.png)
+
 Minha configuração pessoal de ambiente de desenvolvimento para macOS. Focada em **produtividade**, **estética** e **performance**.
 
 Este setup substitui ferramentas antigas do terminal (como `ls`, `cat`, `nano`) por alternativas modernas e rápidas escritas em Rust e Go, todas unificadas pelo tema **Catppuccin Mocha**.
