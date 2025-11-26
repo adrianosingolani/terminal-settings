@@ -1,4 +1,4 @@
-🚀 Terminal Settings (macOS)
+# 🚀 Terminal Settings (macOS)
 
 ![Preview do Terminal](./screenshot.png)
 
@@ -27,22 +27,22 @@ Para que os ícones (Git, Node, pastas, etc.) apareçam corretamente, você **de
 
 1. **Baixe a fonte:**
    - Acesse [Nerd Fonts Downloads](https://www.nerdfonts.com/font-downloads).
-      - Procure por **Hack Nerd Font**.
-         - Clique em "Download".
-         2. **Instale:** Abra o arquivo `.zip`, execute os arquivos `.ttf` e clique em "Instalar Fonte".
-         3. **Configure:** Nas preferências do seu terminal (Terminal.app, iTerm2, VS Code), altere a fonte para `Hack Nerd Font Mono`.
+   - Procure por **Hack Nerd Font**.
+   - Clique em "Download".
+2. **Instale:** Abra o arquivo `.zip`, execute os arquivos `.ttf` e clique em "Instalar Fonte".
+3. **Configure:** Nas preferências do seu terminal (Terminal.app, iTerm2, VS Code), altere a fonte para `Hack Nerd Font Mono`.
 
-         ## ⚡️ Instalação Automática
+## ⚡️ Instalação Automática
 
-         Para replicar este ambiente em uma nova máquina (macOS), basta clonar este repositório e rodar o script de instalação.
+Para replicar este ambiente em uma nova máquina (macOS), basta clonar este repositório e rodar o script de instalação.
 
-         ```bash
-         # 1. Clone o repositório
-         git clone [https://github.com/SEU_USUARIO/terminal-settings.git](https://github.com/SEU_USUARIO/terminal-settings.git)
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/SEU_USUARIO/terminal-settings.git](https://github.com/SEU_USUARIO/terminal-settings.git)
 
-         # 2. Entre na pasta
-         cd terminal-settings
+# 2. Entre na pasta
+cd terminal-settings
 
-         # 3. Dê permissão de execução e rode o script
-         chmod +x install.sh
-         ./install.sh
+# 3. Dê permissão de execução e rode o script
+chmod +x install.sh
+./install.sh

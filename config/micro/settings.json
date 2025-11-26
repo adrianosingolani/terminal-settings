@@ -1,6 +1,6 @@
 {
     "colorscheme": "catppuccin-mocha",
-    "clipboard": "terminal",
+    "clipboard": "external",
     "mkparents": true,
     "softwrap": true,
     "tabsize": 2,
